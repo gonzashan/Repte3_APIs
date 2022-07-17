@@ -58,7 +58,7 @@ Second: Login Post Action: Go to Import -> Paste raw text and paste the text bel
           "fullName": "El Craken",
           "userName":"TomJones",
           "password":"loFg*+.-d,1",
-          "email":"musicisintheair@gmail.com"
+          "email":"musicisintheair@fender.com"
       }'
 
 First: Type http://localhost:3001/users in http box.
@@ -70,3 +70,7 @@ Second: Count users Get Action: Go to Headers and at the VALUE box paste: Bearer
 Third: Then press Get on Postman.
 
 
+
+I do apologize for the inconvenience the previous incorrect grammar may have caused and my delay.
+
+Cheers, Gonzalo SM
