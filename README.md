@@ -23,3 +23,14 @@ What we need to develop is a small API that allows them to execute various actio
 # UML
 
 ![UML image](https://github.com/gonzashan/Repte3_APIs/blob/808b5f541833855aff0a45984eb50229dd677a4a/repte4.jpg)
+
+
+- The password must be saved: * Minimum 6 characters. * Use at least one capital letter. * Use at least a lowercase letter. * Contain some special character:. | , | * | + | -
+
+- A superadmin path must be generated that allows all registered users to be reached but does not display sensitive data.
+
+- There must be a super admin path to get the total number of registered users.
+
+- The only user who can access the super admin paths is the one created with the credentials:
+
+- Test with Postman
