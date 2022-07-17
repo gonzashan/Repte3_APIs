@@ -19,7 +19,7 @@ What we need to develop is a small API that allows them to execute various actio
 
 - When creating them you need to save the creation date.
 
-repte4.jpg
 
+# UML
 
-![UML image](https://raw.githubusercontent.com/parzibyte/WaterPy/master/assets/ImagenV1.png)
+![UML image](https://github.com/gonzashan/Repte3_APIs/blob/808b5f541833855aff0a45984eb50229dd677a4a/repte4.jpg)
