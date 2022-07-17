@@ -37,7 +37,7 @@ What we need to develop is a small API that allows them to execute various actio
 
 # Using Postman
 
-Goes to Import(left side) -> Paste raw text the text below.
+Signup Action: Go to Import -> Paste raw text and paste the text below.
 
       curl --location --request POST 'http://localhost:3001/signup' \
     --header 'Content-Type: application/json' \
@@ -47,3 +47,15 @@ Goes to Import(left side) -> Paste raw text the text below.
         "password":"SuperAdmin10+",
         "email":"superadmin@superadmin.com"
     }'
+
+Login Action: Go to Import -> Paste raw text and paste the text below.
+
+
+      curl --location --request POST 'http://localhost:3001/signup' \
+      --header 'Content-Type: application/json' \
+      --data-raw '{
+          "fullName": "El Craken",
+          "userName":"TomJones",
+          "password":"loFg*+.-d,1",
+          "email":"musicisintheair@gmail.com"
+      }'
