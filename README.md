@@ -36,8 +36,8 @@ What we need to develop is a small API that allows them to execute various actio
 - Test with Postman
 
 # Using Postman
-
-Signup Post Action: Go to Import -> Paste raw text and paste the text below, then click on Import and press Post.
+First: Type http://localhost:3001/login in Http box. 
+Second: Signup Post Action: Go to Import -> Paste raw text and paste the text below, then click on Import and press Post.
 
       curl --location --request POST 'http://localhost:3001/signup' \
     --header 'Content-Type: application/json' \
@@ -47,8 +47,9 @@ Signup Post Action: Go to Import -> Paste raw text and paste the text below, the
         "password":"SuperAdmin10+",
         "email":"superadmin@superadmin.com"
     }'
-
-Login Post Action: Go to Import -> Paste raw text and paste the text below, then click on Import and press Post.
+    
+First: Type http://localhost:3001/login in Http box. 
+Second: Login Post Action: Go to Import -> Paste raw text and paste the text below, then click on Import and press Post.
 
 
       curl --location --request POST 'http://localhost:3001/signup' \
@@ -60,5 +61,12 @@ Login Post Action: Go to Import -> Paste raw text and paste the text below, then
           "email":"musicisintheair@gmail.com"
       }'
 
-User list Get Action: Go to Headers and at the VALUE box paste: Bearer [token generated when user is signup] .Then press Get on Postman.
-Amount users Get Action: Go to Headers and at the VALUE box paste: Bearer [token generated when user is signup]. Then press Get on Postman.
+First: Type http://localhost:3001/users in http box.
+Second: User list Get Action: Go to Headers and at the VALUE box paste: Bearer [token generated when user is signup].
+Third: Then press Get on Postman.
+
+First: Type http://localhost:3001/users/count in http box.
+Second: Count users Get Action: Go to Headers and at the VALUE box paste: Bearer [token generated when user is signup]. 
+Third: Then press Get on Postman.
+
+
