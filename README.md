@@ -34,3 +34,16 @@ What we need to develop is a small API that allows them to execute various actio
 - The only user who can access the super admin paths is the one created with the credentials:
 
 - Test with Postman
+
+# Using Postman
+
+Goes to Import(left side) -> Paste raw text the text below.
+
+      curl --location --request POST 'http://localhost:3001/signup' \
+    --header 'Content-Type: application/json' \
+    --data-raw '{
+        "fullName":"Superadmin",
+        "userName":"superadmin",
+        "password":"SuperAdmin10+",
+        "email":"superadmin@superadmin.com"
+    }'
