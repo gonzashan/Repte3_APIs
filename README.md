@@ -18,3 +18,8 @@ What we need to develop is a small API that allows them to execute various actio
 - You need to check that the email is in the correct format.
 
 - When creating them you need to save the creation date.
+
+repte4.jpg
+
+
+![UML image](https://raw.githubusercontent.com/parzibyte/WaterPy/master/assets/ImagenV1.png)
