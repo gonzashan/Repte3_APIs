@@ -5,8 +5,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
- *
- * Esta clase lanza el servidor de aplicaciones embebido de SpringBoot, que es Apache Tomcat
+This class launches the SpringBoot embedded application server, which is Apache Tomcat.
  */
 @SpringBootApplication
 public class Application {
